@@ -135,6 +135,11 @@
   #AS-button{
     margin-left: 520px;
     margin-top: 10;
+    color: white;
+    background-color: rgb(0, 68, 255);
+    padding: 7px;
+    border: none;
+    
   }
 
 
