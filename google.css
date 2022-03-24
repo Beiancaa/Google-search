@@ -79,15 +79,27 @@
     text-align: center;  
   }
 
-  .buttons {   
-    border: none;
-    color: #3c4043;
+  .buttons {  
     text-align: center;
     padding-top: 30px;
-    margin-bottom: 320px;
+    margin-bottom: 270px;
+  }
+
+  .buttons input[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
     border-radius: 4px;
+    color: #3c4043;
     font-family: arial,sans-serif;
     font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
   }
   
   #form-search {
@@ -131,6 +143,7 @@
   #hr{
     padding-left: 0;    
   }
+  
 
   #AS-button{
     margin-left: 520px;
